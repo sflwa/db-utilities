@@ -4,7 +4,16 @@
  * Description: Master DB Diagnostics: Revision limits, manual purging, and Row/Size comparison (Schema vs. Live).
  * Author: Philip Levine / SFLWA Coding
  * Version: 1.7.0
+
+ Place this file in the mu-plugins folder
+Efficiency Report: ?sflwa_db_report=1
+Meta Detail: ?sflwa_meta_report=1
+Purge Revisions: ?sflwa_purge_revisions=1
+ 
  */
+
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
